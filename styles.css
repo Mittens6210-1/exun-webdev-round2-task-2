@@ -1,0 +1,194 @@
+/* DEFAULT DESIGN */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    height: 5rem;
+    padding: 2rem;
+    width: 100vw;
+    background-color: #E5E5E5;
+
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    top: -1rem
+
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.ite {
+    color: #f52828;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: 600;
+}
+
+li {
+    margin-left: 3.77rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact,
+.waitlist {
+    background-color: #1fa748;
+    color: #E5E5E5;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0.4rem 1.6rem;
+}
+
+.contact:hover,
+.waitlist:hover {
+    background-color: #7028f5;
+    color: black;
+}
+
+.waitlist {
+    background-color: #ff002b;
+}
+
+section {
+    position: relative;
+    background-image: url('./public/tech-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    z-index: -10000;
+    height: 1000px
+}
+
+/* HOMEPAGE */
+
+main {
+    position: absolute;
+    top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main div,
+main p {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+
+main p {
+    font-size: 1.3rem;
+    width: 1000px;
+    text-align: justify;
+}
+
+/* CONTACT PAGE */
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+form {
+    position: absolute;
+    top: 12rem;
+    height: 700px;
+    width: 800px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+}
+
+form .reach {
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+form span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Cname,
+.Cemail,
+.Cmsg {
+    width: 500px;
+    height: 60px;
+    font-size: 1.3rem;
+    padding: 0 20px;
+}
+
+.def {
+    width: 500px;
+    text-align: start;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.Csubmit {
+    width: 100px;
+    height: 60px;
+    font-size: 1.6rem;
+    color: white;
+    border: 2px solid #7028f5;
+    border-radius: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* WAITLIST */
+
+.inpt-wait {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.inpt-wait input {
+    margin-left: 2rem;
+}
